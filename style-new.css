@@ -1,0 +1,61 @@
+@import url('css/bootstrap.min.css');
+
+body {
+	font-size: 1.1em;
+}
+
+.main {
+	min-width: 1110px;
+}
+
+.helpdesk {
+	padding-left: 15px;
+}
+
+.left-col {
+	min-height: 400px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding-top: 125px;
+	text-align: center;
+	margin-bottom: 20px;
+	background-color: #f0f8ff;
+}
+
+.bigtext {
+	font-size: 8.5rem;
+	font-family: courier;
+	font-weight: 300;
+	line-height: 1.2;
+	letter-spacing: -10px;
+}
+
+.right-col {
+	min-height: 400px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.none {
+	margin-top: -60px;
+	margin-left: 250px;
+}
+
+.anti {
+	margin-top: -60px;
+}
+
+.center {
+	text-align: center;
+}
+
+th.middle {
+	padding-bottom: 25px;
+}
+
+.not-distr {
+	margin-bottom: 20px;
+}

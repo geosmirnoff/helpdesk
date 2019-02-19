@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style-new.css" />
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<title>HelpDesk & Zabbix</title>
+</head>
+<body>
+	<!-- <nav class="navbar navbar-dark bg-dark helpdesk">
+		<h1 class="navbar-brand">HelpDesk & Zabbix</h1>
+	</nav> -->
+	<div class="container">
+		<div class="main">
+			<div class="row">
+				<div class="col-12">
+					<div class="row">
+						<div class="col-6">
+							<div class="left-col">
+								<span id="all" class="bigtext"></span>
+								<!-- ВСЕГО НОВЫХ СЕГОДНЯ: -->
+								<span id="allToday" class="bigtext text-info"></span>
+								<!-- ВСЕГО НОВЫХ ВЧЕРА: -->
+								<span id="allYest" class="display-2 text-secondary"></span>
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="right-col">
+								<h3>Не распределено:</h3>
+								<div class="none">
+									<span id="none" class="display-3"></span>
+									<!-- НЕ РАСПРЕДЕЛЕНО СЕГОДНЯ: -->
+									<span id="noneToday" class="display-3 text-info"></span>
+									<!-- НЕ РАСПРЕДЕЛЕНО ВЧЕРА: -->
+									<span id="noneYest" class="display-4 text-secondary"></span>
+								</div>
+								<!-- АНТИТОП: -->
+								<div class="anti">
+									<h1 class="text-danger">Антитоп:</h1>
+									<ul id="antitop" class="list-group"></ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<table class="table table-bordered table-sm tasks">
+							<thead class="thead-light">
+								<tr>
+									<th rowspan="2" scope="col" class="middle">Статус задач</th>
+									<th colspan="2" scope="col" class="center">Отдел</th>
+								</tr>
+								<tr>
+									<th scope="col" class="center">414</th>
+									<th scope="col" class="center">415</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Новые</th>
+									<td class="center">
+										<span id="new414"></span>&nbsp;
+										<span id="new414today"></span> /<!-- НОВЫЕ 414 СЕГОДНЯ -->
+										<span id="new414yest"></span><!-- НОВЫЕ 414 ВЧЕРА -->
+									</td>
+									<td class="center">
+										<span id="new415"></span>&nbsp;
+										<span id="new415today"></span> /<!-- НОВЫЕ 415 СЕГОДНЯ -->
+										<span id="new415yest"></span><!-- НОВЫЕ 415 ВЧЕРА -->
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">Закрытые</th>
+									<td class="center">
+										<span id="closed414"></span>&nbsp;
+										<span id="closed414today"></span> /<!-- ЗАКРЫТЫЕ 414 СЕГОДНЯ -->
+										<span id="closed414yest"></span><!-- ЗАКРЫТЫЕ 414 ВЧЕРА -->
+									</td>
+									<td class="center">
+										<span id="closed415"></span>&nbsp;
+										<span id="closed415today"></span> /<!-- ЗАКРЫТЫЕ 415 СЕГОДНЯ -->
+										<span id="closed415yest"></span><!-- ЗАКРЫТЫЕ 415 ВЧЕРА -->
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table class="table table-bordered table-sm tasks">
+						<thead class="thead-light">
+							<tr>
+								<th colspan="2" scope="col" class="center">Сервера ПО</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1С - Сервера приложений</td>
+								<td><img src="img/red-arrow.png" />&nbsp;10/5</td>
+							</tr>
+							<tr class="table-warning">
+								<td>1С - Базы данных</td>
+								<td><img src="img/green-arrow.png" />&nbsp;5/10</td>
+							</tr>
+							<tr>
+								<td>TRONIX</td>
+								<td><img src="img/red-arrow.png" />&nbsp;10/5</td>
+							</tr>
+							<tr>
+								<td>БОСС-кадровик</td>
+								<td><img src="img/green-arrow.png" />&nbsp;5/10</td>
+							</tr>
+							<tr>
+								<td>Active Directory</td>
+								<td><img src="img/red-arrow.png" />&nbsp;10/5</td>
+							</tr>
+							<tr>
+								<td>Почта</td>
+								<td><img src="img/green-arrow.png" />&nbsp;5/10</td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
